@@ -33,7 +33,7 @@ Opracuj rozwiązania poniższych zadań.
 * Ostatnie polecenie będące ostatecznym rozwiązaniem zadania musi 
   * być poleceniem `select` 
   * posiadającym etykietę `answer`, przykładowo:
-  ```aidl
+  ```sql
   	@name('answer')
         select * from  AzureCostEvent#ext_timed(java.sql.Timestamp.valueOf(its).getTime(), 3 sec)
   ```
@@ -73,7 +73,7 @@ Wykrywaj przypadki, w których w ciągu trzech ostatnich 10-sekundowych przedzia
 
 Wyniki powinny zawierać następujące kolumny:
 - `region` - nazwę regionu
-- `how_many` - liczba złamań limitu
+- `how_many` - sumaryczna liczba złamań limitu 
 
 
 ## Zadanie 5
