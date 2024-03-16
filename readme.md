@@ -97,11 +97,11 @@ Firma zwróciła uwagę na dziwny układ trzech kolejnych naliczeń (nie koniecz
 Wykrywaj powyższe przypadki układów pod warunkiem, że w czasie pomiędzy pierwszym naliczeniem a ostatnim nie pojawiło się naliczenie dla tej samej grupy zasobów na kwotę poniżej 10$.
 
 Wyniki powinny zawierać następujące kolumny:
-`resourceGroup` - nazwa grupy zasobów, dla której wystąpił wspomniany układ
-`ets1` - czas pierwszego naliczenia (dla regionu 'uk') w układzie 
-`ets2` - czas drugiego naliczenia (dla regionu 'germany') w układzie 
-`ets3` - czas trzeciego naliczenia (dla regionu 'asia' albo 'india') w układzie 
-`cost` - suma kosztów ze wszystkich naliczeń w układzie
+- `resourceGroup` - nazwa grupy zasobów, dla której wystąpił wspomniany układ
+- `ets1` - czas pierwszego naliczenia (dla regionu 'uk') w układzie 
+- `ets2` - czas drugiego naliczenia (dla regionu 'germany') w układzie 
+- `ets3` - czas trzeciego naliczenia (dla regionu 'asia' albo 'india') w układzie 
+- `cost` - suma kosztów ze wszystkich naliczeń w układzie
 
 ## Zadanie 7
 Firma wynegocjowała rabat dla sytuacji, w których w ramach tej samej grupy zasobów i tego samego regionu pojawia się seria co najmniej trzech naliczeń, w których koszt każdorazowo wzrasta w stosunku do kosztu naliczenia poprzedniego. 
@@ -111,9 +111,9 @@ Rabat polega na anulowaniu kosztu pierwszego naliczenia w takiej serii.
 Wyszukuj wystąpienia powyższych serii. 
 
 Wyniki powinny zawierać następujące kolumny:
- `region` - region zasobów, dla których pojawiła się seria wzrastających kosztów,
- `ets` - czas pierwszego naliczenia w serii, 
- `discount` - wartość rabatu — koszt pierwszego naliczenia w serii, 
- `beforeDisc` - suma kosztów za naliczenia w serii przed odjęciem rabatu,
- `afterDisc` - suma kosztów za naliczenia w serii po odjęciu rabatu,
- `length` - liczba naliczeń ujętych w serii.
+- `region` - region zasobów, dla których pojawiła się seria wzrastających kosztów,
+- `ets` - czas pierwszego naliczenia w serii, 
+- `discount` - wartość rabatu — koszt pierwszego naliczenia w serii, 
+- `beforeDisc` - suma kosztów za naliczenia w serii przed odjęciem rabatu,
+- `afterDisc` - suma kosztów za naliczenia w serii po odjęciu rabatu,
+- `length` - liczba naliczeń ujętych w serii.
