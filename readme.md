@@ -112,6 +112,7 @@ Wyszukuj wystąpienia powyższych serii.
 
 Wyniki powinny zawierać następujące kolumny:
 - `region` - region zasobów, dla których pojawiła się seria wzrastających kosztów,
+- `resourceGroup` - typ zasobów, dla których pojawiła się seria wzrastających kosztów,
 - `ets` - czas pierwszego naliczenia w serii, 
 - `discount` - wartość rabatu — koszt pierwszego naliczenia w serii, 
 - `beforeDisc` - suma kosztów za naliczenia w serii przed odjęciem rabatu,
